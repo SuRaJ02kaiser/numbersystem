@@ -12,3 +12,4 @@ if(arr[i]%2 == 1){
 console.log("Even",even)
 console.log("Odd",odd)
 }
+

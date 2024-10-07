@@ -10,13 +10,8 @@ for (let i=0;i<arr.length;i++){
     }
     if(factor == 2){
         primenumber = primenumber + arr[i] + ",";
-        primeArray =  [primenumber]
+        primeArray.push =  primenumber
      }
 }
 console.log(primeArray)
 
-for(let k=0;k<primeArray.length;k++){
-    let sum=0;
-    sum += primeArray[k]
-    console.log(sum)
-}
